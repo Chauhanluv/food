@@ -61,4 +61,7 @@ footer{
      .item4::before{
         height: 260vw;
     }
+    .container p{
+        font-size:13px
+    }
 }
