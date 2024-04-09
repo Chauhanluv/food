@@ -1,0 +1,64 @@
+/* navigation bar responsive */
+
+.primary{
+    font-size: 25px;
+}
+.list{
+    font-size: 8px;
+    padding: 18px 0px;
+}
+.item2 p{
+    width: auto;
+    font-size: 15px;
+}
+.btn{
+    font-size:17px;
+    padding: 2px 13px;
+}
+.container1{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+.container{
+    justify-content: center;
+    margin: 5px 0px;
+}
+.container p{
+    font-size: 14px;
+}
+.item4{
+    margin-top: 420px;
+    height: 67vw;
+}
+ .item4::before{
+    height: 67vw;
+}
+
+.clients{
+    flex-wrap: wrap;
+}
+.clientitem{
+    height: 75px;
+}
+.inputitem{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    width: 230px;
+}
+
+footer{
+    margin: 2px 2px;
+    margin-top: 65px;
+}
+@media (max-width:500px) {
+    .item4{
+        margin-top: 420px;
+        height: 242vw;
+    }
+     .item4::before{
+        height: 260vw;
+    }
+}
